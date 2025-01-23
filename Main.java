@@ -13,12 +13,16 @@ public class Main
         // Stampa a video il messaggio sulla stessa riga del precedente
         System.out.println("I will print on the same line. ");
         
+
+
         /*  Per scrivere i numeri nel print non bisogna mettere le virgolette 
         e si possono fare operazioni matematiche 
         Per aggiungere anche una stringa bisogna aggiungere un +    */
         System.out.println("La somma è = "+ 5 * 5 + "$");
         System.out.println(3 + 3);
         System.out.println(2004);
+
+
 
         // Le variabili sono: int, double, float, char, boolean, String
         int myNum = 5;
@@ -28,6 +32,8 @@ public class Main
         boolean vero = true;
         String stringa = "Ciao";
     
+
+
         /* Per dichiarare una costante si usa la parola chiave final 
         e non si può cambiare il valore         */
         final int costante = 5;
@@ -41,11 +47,15 @@ public class Main
         a = b = c = 50;
         System.out.println(a + b + c);
 
+
+
         // I boolean serve per dare ad una variabile true o false
         boolean isJavaFun = true;
         boolean isFishTasty = false;
         System.out.println(isJavaFun);      // output true
         System.out.println(isFishTasty);    // output false
+
+
 
         // Esercizio usando int, float e char
         int prodotto = 30;
@@ -56,17 +66,24 @@ public class Main
         System.out.println("Il costo unitario è di: " + costoUnitario + valuta);
         System.out.println("Il costo totale è di: " + costoTotale + valuta);
 
+
+
         // Nel println si possono fare delle verifiche con output true o false
         int g = 5;
         int h = 3;
         System.out.println(g > h); // in questo caso è true
 
+
+
         // le varie operazioni che si possono fare con una stringa 
         String txt = "Hello world!";
+        
         // Per sapere quanti caratteri ha una stringa bisogna fare .length
         System.out.println("La lunghezza della stringa " + txt + " è di: " + txt.length()); 
+        
         // questa stringa e tutto in maiuscolo e si usa .toUpperCase
         System.out.println("Questa stringa è scritto tutto maiuscolo: " + txt.toUpperCase());
+        
         // Questa stringa e tutto in minuscolo e si usa .toLowerCase
         System.out.println("Questa stringa è scritto tutto minuscolo: " + txt.toLowerCase());
         
@@ -75,6 +92,8 @@ public class Main
         String txt2 = "Please locate where 'locate' occurs!";
         System.out.println(txt2.indexOf("locate")); // Outputs 7
 
+
+
         // Per unire 2 stringhe
         String firstName = "Fabian ";
         String lastName = "Ghioca";
@@ -82,6 +101,35 @@ public class Main
         // Si può utilizzare anche il .concat
         System.out.println(firstName.concat(lastName));
         
+
+
+        // Il risultato è la somma di num1 e num2 = 30 
+        int num1 = 10;
+        int num2 = 20;
+        int num1num2 = num1 + num2;
+        System.out.println(num1num2);
+
+        /* Se si aggiungono due stringhe, 
+        il risultato sarà una concatenazione di stringhe: 1020 */
+        String str1 = "10";
+        String str2 = "20";
+        String str1str2 = str1 + str2;
+        System.out.println(str1str2);
+
+        /* Se si aggiunge un numero e una stringa, 
+        il risultato sarà una concatenazione di stringa: 1020 */
+        String str3 = "10";
+        int num3 = 20;
+        String str3num3 = str3 + num3;
+        System.out.println(str3num3);
+
+
+
+        //
+
+
+
+
 
     }
 }
