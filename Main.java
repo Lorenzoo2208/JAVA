@@ -29,14 +29,15 @@ public class Main
         double numero2 = 5.5;
         float numero3 = 5.5f;
         char carattere = 'a';
-        boolean vero = true;
+//      boolean vero = true;
         String stringa = "Ciao";
-    
+        System.out.println(myNum+numero2+numero3+carattere+stringa);
 
 
         /* Per dichiarare una costante si usa la parola chiave final 
         e non si può cambiare il valore         */
         final int costante = 5;
+        System.out.println(costante);
 
         // Per dichiarare più variabili dello stesso tipo 
         int x = 5, y = 6, z = 50;
@@ -125,7 +126,44 @@ public class Main
 
 
 
-        //
+        // Per scrivere caratteri speciali
+        // Per aggiungere le "" si usa  \"
+        String txt1 = "We are the so-called \"Vikings\" from the north.";
+        // Per aggiungere ' si usa  \'
+        String txt3 = "It\'s alright.";
+        // Per aggiungere un \ si usa  \\
+        String txt4 = "The character \\ is called backslash.";
+
+        String txt134 = txt1+txt3+txt4;
+        System.out.println(txt134); 
+
+    /*  \n 	    New Line 	
+        \r 	    Carriage Return 	
+        \t 	    Tab 	
+        \b 	    Backspace 	
+        \f 	    Form Feed               */
+
+        // Trovare il valore massimo
+        Math.max(5, 10);
+        // Trovare il valore minimo
+        Math.min(5, 10);
+        // Radice quadrata di un valore
+        Math.sqrt(64);
+        // Trasformare un valore negativo in positivo
+        Math.abs(-4.7);
+        // Generare un numero casuale da 0.0 a 1.0
+        Math.random();
+        // Per generare un numero casuale fino a 100
+        int randomNum = (int)(Math.random() * 101);
+        System.err.println(randomNum);
+
+
+
+
+
+
+
+
 
 
 
