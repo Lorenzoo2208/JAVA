@@ -1,13 +1,17 @@
 package JavaInAction.Java01.ex03;
 
-public class Engine extends RaceCar {
+public class Engine{
     int horsepower;
 
     Engine(int horsepower) {
         this.horsepower = horsepower;
     }
 
-    String getDetails() {
-        return "Brand: " + brand + "\nYear: " + year + "\nHorsepower: " + horsepower;
+    public int getHorsepower() {
+        return horsepower;
+    }
+
+    public void setHorsepower(int horsepower) {
+        this.horsepower = horsepower;
     }
 }

@@ -16,4 +16,8 @@ public class RaceCar {
         this.year = year;
         this.engine = engine;
     }
+
+    public String getDetails() {
+        return "Brand: " + brand + "\nYear: " + year + "\nHorsepower: " + engine.horsepower;
+    }
 }
