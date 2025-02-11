@@ -9,6 +9,9 @@ class BoxedInteger {
         
         bn.setNumber(99);
         System.out.println(bn.getNumber());
+
+        bn.setNumber(22);
+        System.out.println(bn.getNumber());
     }
 
     BoxedInteger(Integer number){
@@ -19,7 +22,7 @@ class BoxedInteger {
         return number;
     }
 
-    public void setNumber(Integer number) {
+    public void  setNumber(Integer number) {
         this.number = number;
     }
 
